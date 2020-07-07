@@ -1,0 +1,13 @@
+name: knative
+version: 'pre-release'
+site:
+  title: Knative documentation
+  url:
+ui:
+  bundle:
+    url: https://example.org/docs-ui/download/latest/ui-bundle.zip
+content:
+  sources:
+  - url: https://github.com:abrennan89/asciidoc-antora-demo.git
+    branches: [master]
+    start_path: docs
